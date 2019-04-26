@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    background: green;
+}
+
+::placeholder {
+    color: grey;
+}
+
+$blue: #056ef0;
+$column: 200px;
+
+.menu {
+  width: calc(4 * $column);
+}
+
+.menu_link {
+  background: $blue;
+  width: $column;
+}
